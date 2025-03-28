@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: "https://chat-app-mern-1-qfrt.onrender.com",
         methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
         credentials: true,
     })
