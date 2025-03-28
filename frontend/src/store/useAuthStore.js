@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import {io} from "socket.io-client";
 
 const Base_url = "https://chat-app-mern-mq93.onrender.com";
-export const useAuthStore = create((set,get) => ({
+export const useAuthStore = create((set,get) => ({ 
 
     authUser: null,
     isSigningUp: false,
